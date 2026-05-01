@@ -8,23 +8,43 @@ The only reason I have created this repository is to store the source code of al
 
 ## Explanation of Every Technique:
 
-### Long-Polling
+<details>
+<summary><font size="4"><b>Long-Polling</b></font></summary>
+
 It's a technique of implementing RTC in which the client will be sending HTTP-Requests to the Server asking for any updates, and if there any updates only then the Server will respond to the Client, or else the Server will not send any response to the client.
 The term "polling" refers to "waiting" in this context, as the server doesn't immediately sends a response to the client, even if there's an update, rather it waits for a specific time-duration, before sending a response to the client.
 The HTTP Calls (request-response cycles) used in this technique is *Unary*, means uni-directional (info is transmitted from one device to another at a time) and stateless (server doesn't stores any info about the client, as the complete info is contained in HTTP Calls' headers and body).
 
-* Advantages: 
+* <b>Advantages:</b>
     1. Easier to Implement, if the you already know/skilled in implementing REST APIs.
     2. Very Versatile, as it can be used everywhere (both older & modern systems).
     3. Absolute technique for connecting with a server which is behind Proxy(s).
 
-* Disadvantages:
+* <b>Disadvantages:</b>
     1. High Latency, 'cause server waits for a specific time duration before responding.
-    2. Wastage of Resources, 'cause client sends multiple  
+    2. Wastage of Resources, 'cause client sends multiple
+</details>
 
-### Server-Side Events (SSE)
+<details>
+<summary><font size="4"><b>Server-Side Events (SSE)</b></font></summary>
 
-### WebSockets (WS)
+
+* <b>Advantages:</b>
+    1.
+
+* <b>Disadvantages:</b>
+    1.
+</details>
+
+<details>
+<summary><font size="4"><b>Web Sockets (WS)</b></font></summary>
+
+* <b>Advantages:</b>
+    1.
+
+* <b>Disadvantages:</b>
+    1.
+</details>
 
 ## Conclusion
 
