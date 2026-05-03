@@ -2,7 +2,7 @@
 
 This repository consists of the basic source code of Long-Polling, Server-Sent Events (SSE),  and WebSocket servers, which are the three most-popular techniques/approaches for implementing real-time communication (RTC) feature in Web Applications.
 
-A huge thanks to my mentors "[Ms. Shradha Khapra](https://github.com/shradha-khapra) && [Sr. Hitesh Choudhary](https://github.com/hiteshchoudhary)" for teaching me this valuable topic in Web-Dev via their free YT Videos: [Video1](), and [Video2](https://youtu.be/_CCyMWSZNU4?si=__w7972lOYGxwJF-), respectively, which are kinda "Crash Course" on RTC, but the quality is very good, as it teaches us about the fundamentals of RTC, advantages & disadvantages of each techniques, and their basic implementation.
+A huge thanks to my mentors "[Ms. Shradha Khapra](https://github.com/shradha-khapra) && [Sr. Hitesh Choudhary](https://github.com/hiteshchoudhary)" for teaching me this valuable topic in Web-Dev via their free YT Videos: [Video1](https://youtu.be/favi7avxIag?si=Brol9DvZgHhAlE7l), and [Video2](https://youtu.be/_CCyMWSZNU4?si=__w7972lOYGxwJF-), respectively, which are kinda "Crash Course" on RTC, but the quality is very good, as it teaches us about the fundamentals of RTC, advantages & disadvantages of each techniques, and their basic implementation.
 
 The only reason I have created this repository is to store the source code of all three techniques in one place, so that I can easily refer to it whenever I need to implement RTC feature in my future projects.
 
